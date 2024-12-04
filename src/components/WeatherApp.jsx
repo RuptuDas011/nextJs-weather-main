@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import Nav from "../components/Navbar/Nav";
 import FinalInputCard from "../components/inputCard/FinalInputCard";
 import FinalOutput from "../components/outputCard/FinalOutput";
+
 
 const WeatherApp = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -20,6 +22,7 @@ const WeatherApp = () => {
 
   return (
     <div className="flex flex-col items-center gap-8">
+      <Nav/>
       <FinalInputCard onSearch={handleSearch} />
       <FinalOutput weatherData={weatherData} />
     </div>
