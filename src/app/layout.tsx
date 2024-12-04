@@ -30,11 +30,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        <GoogleTagManager gtmId="GTM-PN88LT68" />
       <body className={inter.className}>
      
-{/* <noscript>
+<noscript>
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN88LT68"
 height="0" width="0" style={{display:'none',visibility:'hidden'}}>
   </iframe>
-  </noscript> */}
+  </noscript>
 
 
 {children}
