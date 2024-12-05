@@ -10,7 +10,7 @@ const Nav = () => {
         
         <div className="flex gap-8">
           <a href="/" className="text-white hover:text-gray-300">
-            Home
+            Hom
           </a>
           <a href="/about" className="text-white hover:text-gray-300">
             About
