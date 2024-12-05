@@ -4,6 +4,7 @@ import FinalInputCard from "../components/inputCard/FinalInputCard";
 import FinalOutput from "../components/outputCard/FinalOutput";
 
 
+
 const WeatherApp = () => {
   const [weatherData, setWeatherData] = useState(null);
 
